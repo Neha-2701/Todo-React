@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.rootDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.SubButton{
+  margin: 25px;
+  height: 5vh;
+  width: 20vw;
+  background-color: green;
+  border-radius: 20px;
+}
+
+.InputField{
+  height: 50px;
+  width:40vw;
+}
+
+.todoItem{
+  display: flex;
+  margin: 25px;
+  height: 5vh;
+  width: 35vw;
+  justify-content: space-between;
+}
+.todoText{
+  max-width: 20vw;
+}
+
+.delButton{
+  width: 10vw;
+  border-radius: 20px;
+  background-color: red;
+}
